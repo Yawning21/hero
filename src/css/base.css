@@ -1,0 +1,42 @@
+:root{
+  --bg:#f8f8ff;
+  --surface:#ffffff;
+  --surface-elevated:rgba(255,255,255,.88);
+  --surface-muted:#f2f4fb;
+  --text:#111827;
+  --muted:#67748a;
+  --primary:#5b45d8;
+  --primary-dark:#3b2da8;
+  --accent:#f59e0b;
+  --accent-soft:rgba(245,158,11,.12);
+  --border:rgba(148,163,184,.16);
+  --shadow-soft:0 18px 45px rgba(15,23,42,.08);
+  --radius:24px;
+  --radius-sm:16px;
+  --max-width:1280px;
+}
+
+*{box-sizing:border-box;}
+*::selection{background:rgba(79,70,229,.2);color:var(--text);}
+html{font-size:16px;scroll-behavior:smooth;background:var(--bg);color:var(--text);}
+body{margin:0;min-height:100vh;font-family:'Inter',system-ui,sans-serif;background:linear-gradient(180deg, #f8f8ff 0%, #f3f4ff 100%);color:var(--text);line-height:1.6;}
+img,svg,video,canvas{display:block;max-width:100%;height:auto;}
+button,input,select,textarea{font:inherit;border:none;background:none;color:inherit;}
+button{cursor:pointer;}
+a{text-decoration:none;color:inherit;}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid rgba(79,70,229,.2);outline-offset:4px;}
+.hidden{display:none!important;}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
+.page-width{max-width:var(--max-width);margin:0 auto;padding:0 1.25rem;}
+.section-heading{font-size:clamp(1.75rem,3vw,2.4rem);line-height:1.05;margin:0 0 1rem;}
+.section-copy{max-width:44rem;color:#4b5563;font-size:clamp(.95rem,2vw,1rem);margin:0;}
+.button{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;padding:.95rem 1.35rem;border-radius:999px;font-weight:700;transition:transform .25s ease,box-shadow .25s ease,background .25s ease;color:#ffffff;}
+.button--primary{background:linear-gradient(135deg,var(--primary),#7c5cf5);box-shadow:0 18px 36px rgba(79,70,229,.22);}
+.button--primary:hover{transform:translateY(-1px);}
+.button--ghost{background:rgba(255,255,255,.85);color:var(--text);box-shadow:0 12px 26px rgba(15,23,42,.08);}
+.button--ghost:hover{background:#f8f8ff;}
+.button--link{padding:0;color:var(--primary);font-weight:700;}
+.button--sm{padding:.8rem 1rem;font-size:.95rem;}
+.flow > * + *{margin-top:1.5rem;}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow-soft);}
+.glass{background:rgba(255,255,255,.78);backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.55);}

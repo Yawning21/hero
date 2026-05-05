@@ -1,0 +1,276 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "robie",
+      "email": "a@gmail.com",
+      "password": "Css@12345"
+    },
+    {
+      "id": 2,
+      "name": "Jericho",
+      "email": "Css@gmail.com",
+      "password": "Css@12345"
+    },
+    {
+      "id": 3,
+      "name": "haha",
+      "email": "haha@gmail.com",
+      "password": "Haha@12345"
+    },
+    {
+      "id": 4,
+      "name": "jericho",
+      "email": "hays@gmail.com",
+      "password": "Css@12345"
+    },
+    {
+      "id": 5,
+      "name": "jericho",
+      "email": "oo@gmail.com",
+      "password": "Css@12345"
+    },
+    {
+      "id": 6,
+      "name": "Jeru",
+      "email": "kk@gmail.com",
+      "password": "Css@12345"
+    },
+    {
+      "id": 7,
+      "name": "jjj",
+      "email": "jj@gmail.com",
+      "password": "Css@12345"
+    },
+    {
+      "id": 8,
+      "name": "ff",
+      "email": "ff@gmail.com",
+      "password": "Css@12345"
+    },
+    {
+      "id": 9,
+      "name": "gg",
+      "email": "gg@gmail.com",
+      "password": "Css@12345"
+    },
+    {
+      "id": 10,
+      "name": "dd",
+      "email": "joy@gmail.com",
+      "password": "Css@12345"
+    },
+    {
+      "id": 11,
+      "name": "kkk",
+      "email": "kkk@gmail.com",
+      "password": "Css@12345"
+    },
+    {
+      "id": 12,
+      "name": "llll",
+      "email": "ll@gmail.com",
+      "password": "Css@12345"
+    },
+    {
+      "id": 13,
+      "name": "Janah Olin",
+      "email": "janah@gmail.com",
+      "password": "Janah@12345"
+    },
+    {
+      "id": 14,
+      "name": "Sheena Maye",
+      "email": "sheenamaye@gmail.com",
+      "password": "Sheena@12345"
+    },
+    {
+      "id": 15,
+      "name": "lala",
+      "email": "lala@gmail.com",
+      "password": "Bscs@123"
+    },
+    {
+      "id": 16,
+      "name": "robie",
+      "email": "la@gmail.com",
+      "password": "La@12345"
+    },
+    {
+      "id": 17,
+      "name": "Gian Carlo",
+      "email": "gian@gmail.com",
+      "password": "qweRTY21@"
+    },
+    {
+      "id": 18,
+      "name": "yawning",
+      "email": "y@gmail.com",
+      "password": "qweRTY21@"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "product_name": "Luxury Gold",
+      "price": 499
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "product_name": "Sweet Candy",
+      "price": 299
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "product_name": "Forest Dew",
+      "price": 399
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "product_name": "Forest Dew",
+      "price": 399
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "product_name": "Strong Edge",
+      "price": 399
+    },
+    {
+      "id": 6,
+      "user_id": 1,
+      "product_name": "Elegant Rose",
+      "price": 399
+    },
+    {
+      "id": 7,
+      "user_id": 1,
+      "product_name": "Luxury Gold",
+      "price": 499
+    },
+    {
+      "id": 8,
+      "user_id": 1,
+      "product_name": "Strong Edge",
+      "price": 399
+    },
+    {
+      "id": 9,
+      "user_id": 1,
+      "product_name": "Elegant Rose",
+      "price": 399
+    },
+    {
+      "id": 10,
+      "user_id": 1,
+      "product_name": "Strong Edge",
+      "price": 399
+    },
+    {
+      "id": 11,
+      "user_id": 2,
+      "product_name": "Strong Edge",
+      "price": 399
+    },
+    {
+      "id": 12,
+      "user_id": 3,
+      "product_name": "Elegant Rose",
+      "price": 399,
+      "quantity": 1
+    },
+    {
+      "id": 13,
+      "user_id": 3,
+      "product_name": "Strong Edge",
+      "price": 399,
+      "quantity": 1
+    },
+    {
+      "id": 14,
+      "user_id": 3,
+      "product_name": "Forest Dew",
+      "price": 399,
+      "quantity": 1
+    },
+    {
+      "id": 15,
+      "user_id": 15,
+      "product_name": "Elegant Rose",
+      "price": 399,
+      "quantity": 1
+    },
+    {
+      "id": 16,
+      "user_id": 16,
+      "product_name": "Strong Edge",
+      "price": 399,
+      "quantity": 1
+    },
+    {
+      "id": 17,
+      "user_id": 15,
+      "product_name": "Vanilla",
+      "price": 399,
+      "quantity": 1
+    },
+    {
+      "id": 18,
+      "user_id": 15,
+      "product_name": "Strong Edge",
+      "price": 399,
+      "quantity": 1
+    },
+    {
+      "id": 19,
+      "user_id": 15,
+      "product_name": "Berry Lush",
+      "price": 399,
+      "quantity": 1
+    },
+    {
+      "id": 20,
+      "user_id": 10,
+      "product_name": "Sweet Candy",
+      "price": 299,
+      "quantity": 1,
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.110992.jpg"
+    },
+    {
+      "id": 21,
+      "user_id": 10,
+      "product_name": "Horizon",
+      "price": 399,
+      "quantity": 1,
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRL1fVcnX2KcVq9L-M_R_9enQ8Snw7e1UgQCInWml_QfXXfkRFpAD17gnTMaDBJiWFkFSmZb8kavXxqxV_f5-zQY3DJImtyTIu_ldJHhk21N2WPZK4zDHvKfOY"
+    },
+    {
+      "id": 22,
+      "user_id": 17,
+      "product_name": "Elegant Rose",
+      "price": 399,
+      "quantity": 1,
+      "image": "https://th.bing.com/th/id/OIP.Y9OPnLy_Uwb9F1n3rxjgTAAAAA?w=154&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+    },
+    {
+      "id": 23,
+      "user_id": 17,
+      "product_name": "Sweet Candy",
+      "price": 299,
+      "quantity": 1,
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.110992.jpg"
+    },
+    {
+      "id": 24,
+      "user_id": 17,
+      "product_name": "Luxury Gold",
+      "price": 499,
+      "quantity": 1,
+      "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=300&q=80"
+    }
+  ]
+}
